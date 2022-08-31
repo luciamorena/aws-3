@@ -1,7 +1,7 @@
 :root {
     --background:#1f1f1f;
     --corBackground: #ddd;
-    --corHover: blue;
+    --corHover: crimson;
     --corTexto:#fff;
 }
 
@@ -10,6 +10,7 @@
     padding:0;
     box-sizing: border-box;
     cursor:pointer;
+    color: crimson;
 }
 
 .container {
