@@ -25,7 +25,7 @@
 }
 
 .container h1:hover {
-    background: var(--corHover);
+    background: darkblue;
     padding:3rem;
     border-radius: 8px;
 }
