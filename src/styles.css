@@ -1,7 +1,7 @@
 :root {
     --background:#1f1f1f;
     --corBackground: #ddd;
-    --corHover: red;
+    --corHover: rgb(0, 247, 255);
     --corTexto:#fff;
 }
 
