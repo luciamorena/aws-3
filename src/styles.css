@@ -1,7 +1,7 @@
 :root {
     --background:#333;
     --corBackground: #ddd;
-    --corHover: red;
+    --corHover: green;
 }
 
 * {
