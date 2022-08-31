@@ -1,7 +1,8 @@
 :root {
     --background:#333;
     --corBackground: #ddd;
-    --corHover: green;
+    --corHover: darkviolet;
+    --corTexto:#fff;
 }
 
 * {
@@ -25,7 +26,8 @@
 }
 
 .container h1:hover {
-    background: darkviolet;
+    background: var(--corHover);
+    color:var(--corTexto);
     padding:3rem;
     border-radius: 8px;
 }
