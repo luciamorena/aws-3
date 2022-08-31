@@ -1,0 +1,31 @@
+:root {
+    --background:#333;
+    --corBackground: #ddd;
+    --corHover: red;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.container {
+    background: var(--background);
+    height:100vh;
+    display:grid;
+    place-items: center;
+}
+
+.container h1 {
+    background: var(--corBackground);
+    padding:3rem;
+    border-radius: 8px;
+}
+
+.container h1:hover {
+    background: var(--corHover);
+    padding:3rem;
+    border-radius: 8px;
+}
