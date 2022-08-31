@@ -1,9 +1,13 @@
 name: DEPLOY - PROD
 
-on: [push]
+# on: [push]
 # on:
   # push:
   # workflow_dispatch:
+on:
+  push:
+    branches: ["prod"]
+
 jobs:
   build:
 
